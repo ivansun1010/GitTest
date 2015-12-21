@@ -14,7 +14,7 @@ public class TransientTest {
         
         User user = new User();
         user.setUsername("Alexia");
-        user.setPasswd("123456");
+        user.setPasswd("123456888");
         
         System.out.println("read before Serializable: ");
         System.out.println("username: " + user.getUsername());
@@ -40,7 +40,6 @@ public class TransientTest {
             System.out.println("\nread after Serializable: ");
             System.out.println("username: " + user.getUsername());
             System.err.println("password: " + user.getPasswd());
-            
             
         } catch (FileNotFoundException e) {
             e.printStackTrace();
