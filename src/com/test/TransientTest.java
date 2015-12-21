@@ -41,6 +41,7 @@ public class TransientTest {
             System.out.println("username: " + user.getUsername());
             System.err.println("password: " + user.getPasswd());
             
+            
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
