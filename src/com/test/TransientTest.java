@@ -14,7 +14,7 @@ public class TransientTest {
         
         User user = new User();
         user.setUsername("Alexia");
-        user.setPasswd("123456888");
+        user.setPasswd("123456");
         
         System.out.println("read before Serializable: ");
         System.out.println("username: " + user.getUsername());
